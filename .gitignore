@@ -1,0 +1,23 @@
+# Model artifacts (large binaries — store in object storage or DVC)
+models/*.pkl
+models/*.joblib
+models/*.json
+!models/.gitkeep
+
+# Data files
+data/*.parquet
+data/*.csv
+data/*.json
+!data/.gitkeep
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+.env
+
+# OS
+.DS_Store
